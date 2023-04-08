@@ -42,6 +42,8 @@ const Row3 = () => {
           ];
         }
       );
+    } else {
+      return [];
     }
   }, [kpiData]);
 

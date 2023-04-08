@@ -3,8 +3,8 @@ import FlexBetween from "./FlexBetween";
 import { useTheme, Box, Typography } from "@mui/material";
 type Props = {
   title: string;
-  subtitle: string;
-  sideText: string;
+  subtitle?: string;
+  sideText?: string;
   icon?: React.ReactNode;
 };
 

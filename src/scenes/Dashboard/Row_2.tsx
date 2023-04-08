@@ -104,7 +104,7 @@ const Row_2 = () => {
               yAxisId="left"
               type="monotone"
               dataKey="Non Operational Expenses"
-              stroke={palette.tertiary[500]}
+              stroke={palette.primary[800]}
             />
             <Line
               yAxisId="right"
@@ -197,7 +197,7 @@ const Row_2 = () => {
             <Scatter
               name="Product Expense Ratio"
               data={productExpenseData}
-              fill={palette.tertiary[500]}
+              fill={palette.grey[300]}
             />
           </ScatterChart>
         </ResponsiveContainer>
